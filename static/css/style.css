@@ -1,0 +1,76 @@
+/* 
+	Sample CSS file to go with the Heroku/Tornado setup
+
+	Author: Michael Dory
+		11.12.11
+*/
+
+/* reset *all* the things */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section, menu,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}									
+
+
+/* basic things */
+body {
+}
+
+a {
+	text-decoration: none;
+}
+
+/* header things */
+
+header {
+	margin: 20px;
+	padding: 20px;
+	margin: 0 auto;  
+}
+
+	header h1 {
+		color: #777;
+		font-size: 56px;
+		text-align: center;
+	}
+
+/* main things */
+
+#main {
+	margin: 40px;
+}
+
+	#main h1 {
+		color: #999;
+		font-style: italic;
+	}
+
+	#main p {
+		color: #555;
+	}
+
+/* footer thingss */
+
+footer {
+	margin: 20px;
+	padding: 20px;
+	margin: 0 auto;  
+}
+
+	footer p {
+		color: #999;
+		font-style: italic;
+		font-size: 12px;
+		text-align: center;
+	}
